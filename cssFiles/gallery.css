@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  
+  /* --Container-- */
+  #container {
+    width: 100%;
+    height: 1000px;
+  }
+  
+  /* --Header-- */
+  .header {
+    width: 100%;
+    height: 100px;
+    background-color: indianred;
+  }
+  .header .logo {
+    width: 14%;
+    height: 80%;
+    background-color: #160224;
+    float: left;
+  }
+  .header .banner {
+    width: 80%;
+    height: 100px;
+    background-color: #040701;
+    float: left;
+  }
+  
+  /* --Navbar-- */
+  .navbar {
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 50px;
+    position: sticky;
+  }
+  
+  .navbar ul {
+    padding-top: 10px;
+    width: 100%;
+    list-style-type: none;
+  }
+  .navbar ul li {
+    width: 25%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .navbar ul li:hover {
+    height: 100%;
+    background-color: grey;
+    color: white;
+    transition: 2s;
+  }
+  .navbar ul li a:hover {
+    color: white;
+    transition: 2s;
+  }
+  
+  /* Content */
+  .content {
+    width: 100%;
+    height: 800px;
+    margin-left: 4%;
+  }
+  .box {
+    width: 80%;
+    height: 100%;
+    float: left;
+    margin: 100px;
+  }
+  
+  .box .box-one {
+    height: 25%;
+    width: 30%;
+    background-color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    transform: scale(1);
+    transition: all 2s;
+    background-image: url(../imagesForLab-5/1.jpg);
+  }
+  
+  .box .box-two {
+    height: 25%;
+    width: 30%;
+    background-color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    transform: rotate(0deg);
+    transition: all 2s;
+  }
+  .box .box-three {
+    height: 25%;
+    width: 30%;
+    background-color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    transform: rotate(0deg);
+    transition: all 2s;
+  }
+  .box .box-four {
+    height: 25%;
+    width: 30%;
+    background-color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    transform: rotate(0deg);
+    transition: all 2s;
+  }
+  .box .box-five {
+    height: 25%;
+    width: 30%;
+    background-color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    transform: rotate(0deg);
+    transition: all 2s;
+  }
+  .box .box-six {
+    height: 25%;
+    width: 30%;
+    background-color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    transform: rotate(0deg);
+    transition: all 2s;
+  }
+  .box .box-seven {
+    height: 25%;
+    width: 30%;
+    background-color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    transform: rotate(0deg);
+    transition: all 2s;
+  }
+  .box .box-eight {
+    height: 25%;
+    width: 30%;
+    background-color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    transform: rotate(0deg);
+    transition: all 2s;
+  }
+  .box .box-nine {
+    height: 25%;
+    width: 30%;
+    background-color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    transform: rotate(0deg);
+    transition: all 2s;
+  }
+  
+  .footer {
+    width: 100%;
+    height: 50px;
+    
+  }
+  
+  
+  .content div img:hover{
+    transform: scale(1.2);
+    transition: 2s; 
+    border-radius: 35px;
+  }
+  

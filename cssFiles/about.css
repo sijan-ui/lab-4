@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #f3ededdc;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  .wrapper {
+    width: 90%;
+    height: auto;
+    margin: auto;
+  }
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 47.1%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 74%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  [class*="col-"] {
+    float: left;
+    /* border: 1px solid gray; */
+  }
+  
+  /* --Header -- */
+  .header-height {
+    height: 115px;
+  }
+  
+  .menu-height {
+    height: 50px;
+  }
+  .content-height {
+    height: 1200px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 1rem;
+    margin: 0.5rem;
+  }
+  .bigfooter-height {
+    height: 100px;
+  }
+  .footer-height {
+    height: 40px;
+  }
+  
+  /* --Navbar-- */
+  .container .navbar {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    position: sticky;
+  }
+  
+  .navbar ul {
+    padding-top: 10px;
+    width: 100%;
+    list-style-type: none;
+  }
+  .navbar ul li {
+    width: 25%;
+    float: left;
+    text-align: center;
+    background-color: rgb(95, 26, 26);
+    padding: 10px 50px;
+    border-radius: 5px;
+  }
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .navbar ul li:hover {
+    background-color: grey;
+    color: white;
+    transition: 2s;
+  }
+  .navbar ul li a:hover {
+    color: white;
+    transition: 2s;
+  }
+  
+  /* ------Content------ */
+  
+  /* --contact information-- */
+  .information {
+    width: 100%;
+    height: 100%;
+    color: #877575;
+  }
+  .information .contact {
+    width: 100%;
+    height: 50%;
+  }
+  .contact .profile {
+    width: 100%;
+    background-image: url("https://scontent.fdac135-1.fna.fbcdn.net/v/t39.30808-6/255053626_3022546208001621_6120787964462616317_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=1Dc2Po33USgAX-x8nZ9&tn=8FRBrIyC5v5RZJZt&_nc_ht=scontent.fdac135-1.fna&oh=23421c5b0ab2a1a2e9d3234a444bbda4&oe=61B37550");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #e0dada6b;
+    background-blend-mode: darken;
+  }
+  .profile h1 {
+    padding-top: 90%;
+    font-weight: bold;
+    font-size: 1.8rem;
+    padding-left: 1%;
+    color: white;
+    text-shadow: 0px 2px 2px black;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  .contact .details {
+    width: 100%;
+    height: 25%;
+    padding: 3%;
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .details p {
+    margin-top: 2%;
+    font-size: 1rem;
+    color: rgb(144, 136, 136);
+  }
+  
+  /* --others information-- */
+  .information .others-information {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+  }
+  .others-information .skills {
+    width: 100%;
+    height: 80%;
+    padding-left: 3%;
+    padding-top: 10%;
+    background-color: white;
+  }
+  
+  /* ---Resume--- */
+  /* ----Resume CSS Start---- */
+  #resume {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f0eeee85;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  .resume h3 {
+    margin-bottom: 5px;
+  }
+  .list-item {
+    list-style-type: none;
+    position: relative;
+    height: 400px;
+  }
+  
+  .list-item li {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-color: #fffffff3;
+    border-radius: 5px;
+    box-shadow: 0 15px 10pxrgba (0, 0, 0, 0.05);
+  }
+  .list-item li h5 {
+    background-color: rgb(26, 153, 33);
+    color: white;
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 0.3rem;
+  }
+  .list-item li span {
+    color: #222b02c2;
+  }
+  .list-item li p {
+    padding-left: 15px;
+  }
+  
